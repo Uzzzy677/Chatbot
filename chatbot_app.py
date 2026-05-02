@@ -90,7 +90,7 @@ def place_order(product_id: int, customer_name: str, customer_address: str) -> s
 
 def get_helpline(issue_type: str) -> str:
     """Provides contact details for returns or other complex issues."""
-    return "For returns or complex inquiries, please contact our helpline at 1-800-NASHAD (1-800-627-423) or email support@nashadjewellers.com."
+    return "For returns or complex inquiries, please give us a call on 0121 773 4286 or email support@nashadjewellers.com."
 
 def search_knowledge_base(query: str) -> str:
     """Searches the store's knowledge base for policies, guides, and store information."""
